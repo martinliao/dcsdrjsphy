@@ -1,0 +1,205 @@
+.body
+{
+  background-color:#eeeeee;
+  FONT-FAMILY: Arial 新細明體;
+  FONT-SIZE: 12px;
+	margin: 0;
+	padding: 0 0 15px;
+	letter-spacing: .05em;
+}
+.table {	
+	border-collapse:collapse;
+	border-style:solid;
+	font-size: 100%;
+	margin-bottom: 2px;
+	width: 100%;
+	left: auto;
+	right: auto;
+	border: 2px solid #000000;
+	word-spacing:0px;
+	border-collapse: collapse;
+}
+.link
+{
+    TEXT-DECORATION: none
+}
+.td{
+	text-align: left;
+	border: 1px solid #eeeeee;
+	vertical-align: middle;	
+}
+.tdl{
+	text-align: left;
+	font-size: 12px 100%;
+	border: 1px solid #000000;
+	vertical-align: middle;
+	/*background-color:#DCDCDC;	*/
+}
+.tdc1{
+	text-align: center;
+	font-size: 12px 100%;
+	border: 1px solid #000000;
+	vertical-align: middle;
+	/*background-color:#DCDCDC;	*/
+}
+.tdr{
+	text-align: right;
+	font-size: 12px 100%;
+	border: 1px solid #000000;
+	vertical-align: middle;
+	background-color:#DCDCDC;
+}
+.tdc{
+	text-align: center;
+	font-size: 12px 100%;
+	border: 1px solid #eeeeee;
+	/*vertical-align: middle;*/
+	/*background-color:#DCDCDC;*/
+}
+.title{
+	text-align: center;
+	border: 0px solid #eeeeee;
+	font-size: 15;
+	color: #000000;
+	font-weight:bold;
+}
+
+.msg {
+	color: #FF0033;
+	font-size: 12px;
+}
+
+.button 
+{
+	cursor:hand;
+	font-size: 12pt;
+	border : 2px outset Gray;
+	font-family: 新細明體;
+	height :20pt;
+}
+
+.Sheet 
+{    
+  FONT-FAMILY: Arial 新細明體;
+  FONT-SIZE: 12px;
+  TEXT-ALIGN: center;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,EndColorStr='#D8D8D8', StartColorStr='#FFFFFF');
+	border: 2px solid #B9C6D0;
+	height: 30px;
+	color: #2B5585;
+	text-decoration: none;	
+	margin: 0px;
+}
+.SheetOn 
+{
+    
+  FONT-FAMILY: Arial 新細明體;
+  FONT-SIZE: 12px;
+  TEXT-ALIGN: center;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,EndColorStr='#153898', StartColorStr='#3E6DDB');
+	border: 3px solid #EE0FFF;
+	height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;	
+	margin: 0px;
+}
+
+.SheetTop 
+{
+    
+  FONT-FAMILY: Arial 新細明體;
+  FONT-SIZE: 12px;
+  TEXT-ALIGN: center;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,EndColorStr='#D8D8D8', StartColorStr='#FFFFFF');
+	border: 2px solid #B9C6D0;
+	height: 22px;
+	color: #2B5585;
+	text-decoration: none;	
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 2px;
+
+}
+
+.SheetTopOn 
+{
+    
+  FONT-FAMILY: Arial 新細明體;
+  FONT-SIZE: 12px;
+  TEXT-ALIGN: center;
+	border: 2px solid #EE0FFF;	
+	border-top: 3px solid #FFB12C;
+	background-color:#FFFFFF;
+	height: 22px;
+	color: #2B5585;
+	text-decoration: none;	
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 2px;
+
+}
+
+/* Grid */
+.grid {
+	border-collapse:collapse;
+	font-size: 100%;
+	border: 1px solid #dddddd;
+	color: #333333;
+	margin-bottom: 2px;
+	background: #FFFFFF;
+	width: 100%;
+}
+.grid th {
+	font-weight: normal;
+	padding: 2px 2px;
+	line-height: 140%;
+	border: 1px solid #dddddd;
+	vertical-align: middle;
+	text-align: center;
+	white-space:nowrap;
+	height:23px;	
+	background: #5D7B9D;
+	color:#FFFFFF;
+}
+.grid td {
+	font-weight: normal;
+	padding: 0px 0px;
+	border: 1px solid #000000;
+	line-height: 140%;
+	vertical-align: middle;
+	height: 10px;
+	white-space:nowrap;
+}
+
+.gridDiv{
+	OVERFLOW-X:auto; 
+	overflow-Y: hidden;
+	width:100%;
+	BORDER-RIGHT-COLOR:blue;
+	SCROLLBAR-SHADOW-COLOR:#ffffff;SCROLLBAR-HIGHLIGHT-COLOR:#ffffff;BORDER-BOTTOM-COLOR:blue;
+	SCROLLBAR-FACE-COLOR:#ffffff;SCROLLBAR-TRACK-COLOR:#ffffff;BORDER-LEFT-COLOR:blue;
+	SCROLLBAR-ARROW-COLOR:#95cab6;SCROLLBAR-3DLIGHT-COLOR:#95cab6;SCROLLBAR-DARKSHADOW-COLOR:#95cab6;
+}
+div.page_info {
+	margin:5px 5px 5px 5px;
+  color: red;
+}
+
+/* === 定義Grid白色列 === */
+.Row1{
+	cursor: '';
+	background-color: #FFFFFF;	
+	font-size: 100%;
+}
+/* === 定義Grid藍色列 === */
+.Row2{
+	cursor: '';
+	background-color: #DCDCDC;	
+	font-size: 100%;
+}
+/* === 定義Grid選中列 === */
+.RowSel{
+	cursor: '';
+	background-color: #C0FFC0;	
+	font-size: 100%;
+}

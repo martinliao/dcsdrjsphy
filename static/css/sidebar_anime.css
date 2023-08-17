@@ -1,0 +1,19 @@
+        #sidebar-wrapper {
+            margin-left: -250px;
+            left: 250px;
+            top: 0px;
+            width: 250px;
+            overflow-y: auto;
+            transition: all 0.6s ease 0s;
+            position: absolute;
+        }
+        
+        #wrapper.active #sidebar-wrapper {
+            left: 0;
+            padding-left: 250px;
+            transition: all 0.6s;
+        }
+        
+        #menu-toggle {
+            text-decoration: none;
+        }

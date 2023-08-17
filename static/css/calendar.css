@@ -1,0 +1,72 @@
+.f-calendar {
+}
+.f-calendar thead th {
+    text-align: center;
+    width: 14.285714286%;
+}
+.f-calendar tbody td {
+    vertical-align: top !important;
+    text-align: center;
+    padding: 0px !important;
+}
+.f-calendar tbody td .btn-group{
+    padding: 4px;
+}
+.f-calendar tbody td .btn-group .fa-plus {
+    color: #2285E8;
+}
+
+.f-calendar tbody td .btn-group .fa-minus {
+    color: #EF6E6E;
+}
+.f-calendar tbody td .date{
+    text-align: left;
+    padding: 3px 8px 3px 8px;
+    /* background-color: #ccc; */
+}
+.f-calendar tbody td .date .day{
+    font-size: 16px;
+}
+.f-calendar tbody td .date .input-xs{
+    width: 25px;
+    float: right;
+    text-align: center;
+}
+.f-calendar tbody td .date .day{
+    font-weight: 600;
+}
+.f-calendar tbody td .times{
+}
+.f-calendar tbody td .times div{
+    padding: 3px 8px;
+    line-height: 1;
+    text-align: left;
+}
+.f-calendar tbody td .times div input[type=checkbox]{
+    margin: 4px 0 0;
+}
+.f-calendar tbody td .times div.close {
+    background-color: #666;
+    opacity: 0.4;
+}
+.f-calendar tbody td .times div.close:hover {
+    background-color: #666;
+    opacity: 0.6;
+}
+.f-calendar tbody td .times input[type=text] {
+    width: 32%;
+    text-align: center;
+}
+
+.f-calendar tbody td .times.rest div{
+    text-align: center;
+}
+
+.month-range {
+    margin-bottom: 15px;
+}
+
+.month-range .current {
+    font-weight: 600;
+    font-size: 16px;
+}
