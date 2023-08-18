@@ -12,11 +12,13 @@ var require = {
         jqueryuicss: '[JSURL]lib/jquery/ui-1.13.2/jquery-ui',
 
         'datatables.net': cdnBase + '/1.13.4/js/jquery.dataTables.min',
-        jqueryDataTables: '[JSURL]lib/DataTables/jquery.dataTables[JSMIN][JSEXT]',
-        bootstrapDataTablesCSS: '[JSURL]lib/DataTables/dataTables.bootstrap',
-        bootstrapDataTables: '[JSURL]lib/DataTables/dataTables.bootstrap[JSMIN][JSEXT]', // 需要 datatables.net
-        datatablescss: '[JSURL]lib/DataTables/datatables',
-        datatables: '[JSURL]lib/DataTables/datatables[JSMIN][JSEXT]',
+        //bootstrapDataTablesCSS: '[JSURL]lib/DataTables/dataTables.bootstrap',
+        //bootstrapDataTables: '[JSURL]lib/DataTables/dataTables.bootstrap[JSMIN][JSEXT]', // 需要 datatables.net
+        //datatablescss: '[JSURL]lib/DataTables/datatables',
+        //datatables: '[JSURL]lib/DataTables/datatables[JSMIN][JSEXT]',
+        bootstrapdataTablescss: '[JSURL]lib/DataTables/dataTables.bootstrap',
+        jquerydataTables: '[JSURL]lib/DataTables/jquery.dataTables[JSMIN][JSEXT]',
+        datatables: '[JSURL]lib/DataTables/dataTables.bootstrap[JSMIN][JSEXT]',
 
         moment: '[JSURL]lib/moment/moment[JSMIN][JSEXT]',
         daterangepicker: '[JSURL]lib/jquery/daterangepicker/daterangepicker[JSMIN][JSEXT]',
@@ -43,9 +45,10 @@ var require = {
     shim: {
         jqueryui: { deps: ['jquery', 'css!jqueryuicss']},
 
-        'jqueryDataTables': {deps: ['jquery']},
-        'bootstrapDataTables' : {deps: ['jquery', 'datatables.net', 'css!bootstrapDataTablesCSS' ]},
-        'datatables' : {deps: ['jquery', 'css!datatablescss' ]},
+        //'jqueryDataTables': {deps: ['jquery']},
+        //'bootstrapDataTables' : {deps: ['jquery', 'datatables.net', 'css!bootstrapDataTablesCSS' ]},
+        'jquerydataTables': {deps: ['jquery']},
+        'datatables' : {deps: ['jquery', 'jquerydataTables', 'css!bootstrapdataTablescss' ]},
 
         'daterangepicker' : {deps: ['jquery', 'css!daterangepicker-css']},
         'fullcalendar' : {

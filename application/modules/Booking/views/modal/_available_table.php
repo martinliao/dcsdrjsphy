@@ -38,7 +38,7 @@
             <th>No</th>
             <th>ID</th>
             <th>場地名稱</th>
-            <th>人數</th>
+            <th>容納人數</th>
             <?php foreach ($period as $day) : ?>
                 <th class="rotated-text">
                     <div><span><?= $day ?></span></div>

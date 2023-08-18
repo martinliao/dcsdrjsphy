@@ -85,10 +85,10 @@ class Booking extends AdminController
 		);
 		$this->load->view('modal/_session_detail', $data);  // 主畫面: query_bookingroom
 		$data['filter']['class_room_type_A'] = 'A';
-		// Date for available room
+		// Date
 		$filterDate1 = new DateTime($old_data['start_date1']);
 		$data['filter']['start_date'] = $filterDate1->format('Y-m-d');
-		$filterDate2 = new DateTime($old_data['end_date']);
+		$filterDate2 = new DateTime($old_data['end_date1']);
 		$data['filter']['end_date'] = $filterDate2->format('Y-m-d');
 		$this->load->view('modal/available_room', $data);
 	}

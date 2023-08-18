@@ -1,3 +1,9 @@
+<style type="text/css">
+    .box-body{
+        height: 300px;
+        overflow-x: auto;
+    }
+</style>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Main content -->

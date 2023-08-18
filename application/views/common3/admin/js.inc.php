@@ -1,10 +1,8 @@
 
     <!-- jQuery 3 -->
-    <!-- <script src="<?= HTTP_PLUGIN; ?>jquery/dist/jquery.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="<?= HTTP_PLUGIN; ?>jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <!-- <script src="<?= HTTP_PLUGIN; ?>bootstrap-3.4.1-dist/js/bootstrap.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+    <script src="<?= HTTP_PLUGIN; ?>bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
     <!-- jQuery UI -->
     <!-- <script src="<?= HTTP_PLUGIN; ?>jquery-ui/jquery-ui.min.js"></script> -->
     <!-- Slimscroll
@@ -24,8 +22,7 @@
     <script type="text/javascript" src="<?=HTTP_PLUGIN;?>fancybox/jquery.fancybox.js?v=2.1.5"></script>
     <script type="text/javascript" src="<?=HTTP_PLUGIN;?>toastr/toastr.min.js"></script>
 
-    <!-- Multi Modal -->
-    <script src="<?=HTTP_JS;?>multiModal.js"></script>
+    
 
     <!-- <script src="http://localhost:8080/reactadmin/assets/plugins/toastr/toastr.min.js"></script>
     <script src="http://localhost:8080/reactadmin/assets/plugins/sweetalert2/sweetalert2.min.js"></script> -->
