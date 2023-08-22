@@ -12,7 +12,7 @@ var require = {
         jqueryuicss: '[JSURL]lib/jquery/ui-1.13.2/jquery-ui',
 
         //'datatables.net': cdnBase + '/1.13.4/js/jquery.dataTables.min',
-        'datatables.net': '[JSURL]lib/DataTables/jquery.dataTables[JSMIN][JSEXT]',
+        'datatables.net': '[JSURL]lib/DataTables/jquery.1.13.4.dataTables[JSMIN][JSEXT]',
         //bootstrapDataTablesCSS: '[JSURL]lib/DataTables/dataTables.bootstrap',
         //bootstrapDataTables: '[JSURL]lib/DataTables/dataTables.bootstrap[JSMIN][JSEXT]', // 需要 datatables.net
         //datatablescss: '[JSURL]lib/DataTables/datatables',
